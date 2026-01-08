@@ -28,7 +28,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 Have you ever felt the call of the wild? Have you ever felt like something was missing within yourself? We all have! Due to our fast paced and work oriented society, we often miss out on opportunities to stop and literally smell the roses. This application, the **Nature Tracker**, encourages users to spend more time outside and enjoy the wonderous world in which we live. Its simple design allows the user to track time spent outside and even compete with others to see who can spend the most consecutive days enjoy the beauties of mother nature. If you would like to learn more about the benefits of spending time outside, feel free to read [this article](https://hsph.harvard.edu/news/time-spent-in-nature-can-boost-physical-and-mental-well-being/).
 ### Design
 
-![Design image](placeholder.png)
+![Design image](naturetrackerdesign.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
