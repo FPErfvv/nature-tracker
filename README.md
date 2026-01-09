@@ -25,7 +25,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 ### Elevator pitch
 
-Have you ever felt the call of the wild? Have you ever felt like something was missing within yourself? We all have! Due to our fast paced and work oriented society, we often miss out on opportunities to stop and literally smell the roses. This application, the **Nature Tracker**, encourages users to spend more time outside and enjoy the wonderous world in which we live. Its simple design allows the user to track time spent outside and even compete with others to see who can spend the most consecutive days enjoy the beauties of mother nature. If you would like to learn more about the benefits of spending time outside, feel free to read [this article](https://hsph.harvard.edu/news/time-spent-in-nature-can-boost-physical-and-mental-well-being/).
+Have you ever felt the call of the wild? Have you ever felt like something was missing within yourself? We all have! Due to our fast paced and work oriented society, we often miss out on opportunities to stop and literally smell the roses. This application, the **Nature Tracker**, encourages users to spend more time outside and enjoy the wonderous world in which we live. Its simple design allows the user to track time spent outside and even compete with others to see who can spend the most consecutive days enjoy the beauties of mother nature. Spending more time outside can literally change your life, as mentioned in [this article](https://hsph.harvard.edu/news/time-spent-in-nature-can-boost-physical-and-mental-well-being/).
 ### Design
 
 ![Design image](naturetrackerdesign.jpg)
@@ -37,13 +37,10 @@ The photo above demonstrates the three main pages (features) of the application.
 - Secure login to keep track of user data
 - Simple entry creation to track time spent
 - Streak tracking
+- Score algorithm that gives more points based off of a variety of factors
+    - length of streak
+    - weather at time of the recording of the entry
 - Active Leaderboard ranking
-
-#### **Additional Features for future development**
-- Review and deletion of history (list of previous entries)
-- Photo and text entries to add description to entries
-- Ability to add other users as friends
-- Ability to view entries of friends
 
 
 ### Technologies
@@ -54,12 +51,12 @@ I am going to use the required technologies in the following ways.
   - Login page
   - Entry creation page
   - Leaderboard page
-- **CSS** - Application styling that reflects the themes of the application. This will include nature-like colors such as
+- **CSS** - Application styling that reflects the purpose of the application. This will include nature-like colors such as
   - Green
   - Sky Blue
   - Brown
   - Grey
-- **React** - Description here
+- **React** - React will be in control of all the display logic like controlling login, controling the entry input, controlling the point scoring, and the leadership rankings
 - **Service** - Description here
 - **DB/Login** - Description here
 - **WebSocket** - Description here
