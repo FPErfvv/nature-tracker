@@ -56,10 +56,16 @@ I am going to use the required technologies in the following ways.
   - Sky Blue
   - Brown
   - Grey
-- **React** - React will be in control of all the display logic like controlling login, controling the entry input, controlling the point scoring, and the leadership rankings
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **React** - React will be in display of all the UI logic like controlling login, displaying the entry input, displaying the point scoring, and the displaying rankings
+- **Service** - Backend functionality for logic and processing
+  - API calls to weather (for pointage)
+  - pointage calculation
+  - user authentication
+- **DB/Login** - Stores user information, such as
+  - user login information
+  - user entry streak
+  - user pointage/ranking
+- **WebSocket** - As users input entries and the user scores are updated, the websocket will update the ranking of the leaderboard, as well as update the information that the other users can see of each other (streak sharing)
 
 ## 🚀 AWS deliverable
 
