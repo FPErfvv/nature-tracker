@@ -17,15 +17,15 @@ The Nature Tracker is a creative and innovative application that is used to enco
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology
-- [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [x] Proper use of Markdown
+- [x] A concise and compelling elevator pitch
+- [x] Description of key features
+- [x] Description of how you will use each technology
+- [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
-Have you ever felt the call of the wild? Have you ever felt like something was missing within yourself? We all have! Due to our fast paced and work oriented society, we often miss out on opportunities to stop and literally smell the roses. This application, the **Nature Tracker**, encourages users to spend more time outside and enjoy the wonderous world in which we live. Its simple design allows the user to track time spent outside and even compete with others to see who can spend the most consecutive days enjoy the beauties of mother nature. Spending more time outside can literally change your life, as mentioned in [this article](https://hsph.harvard.edu/news/time-spent-in-nature-can-boost-physical-and-mental-well-being/).
+Have you ever felt the call of the wild? Have you ever felt like something was missing within yourself? We all have! Due to our fast paced and work oriented society, we often miss out on opportunities to stop and literally smell the roses. This application, the **Nature Tracker**, encourages users to spend more time outside and enjoy the wonderous world in which we live. Its simple design allows the user to track time spent outside and even compete with others to see who can spend the most consecutive days enjoying the beauties of mother nature. Spending more time outside can literally change your life, as mentioned in [this article](https://hsph.harvard.edu/news/time-spent-in-nature-can-boost-physical-and-mental-well-being/).
 ### Design
 
 ![Design image](naturetrackerdesign.jpg)
@@ -38,10 +38,9 @@ The photo above demonstrates the three main pages (features) of the application.
 - Simple entry creation to track time spent
 - Streak tracking
 - Score algorithm that gives more points based off of a variety of factors
-    - length of streak
-    - weather at time of the recording of the entry
+  - length of streak
+  - weather at time of the recording of the entry
 - Active Leaderboard ranking
-
 
 ### Technologies
 
@@ -56,15 +55,15 @@ I am going to use the required technologies in the following ways.
   - Sky Blue
   - Brown
   - Grey
-- **React** - React will be in display of all the UI logic like controlling login, displaying the entry input, displaying the point scoring, and the displaying rankings
+- **React** - React will be used to display all of the UI logic like controlling login, displaying the entry input, displaying the point scoring, and displaying rankings
 - **Service** - Backend functionality for logic and processing
-  - API calls to weather (for pointage)
-  - pointage calculation
-  - user authentication
+  - API calls to weather (for calculating score)
+  - User point calculation
+  - User authentication
 - **DB/Login** - Stores user information, such as
-  - user login information
-  - user entry streak
-  - user pointage/ranking
+  - User login information
+  - User entry streak
+  - User scoring (points/ranking)
 - **WebSocket** - As users input entries and the user scores are updated, the websocket will update the ranking of the leaderboard, as well as update the information that the other users can see of each other (streak sharing)
 
 ## 🚀 AWS deliverable
