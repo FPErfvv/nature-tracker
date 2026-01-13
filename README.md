@@ -4,17 +4,6 @@
 
 The Nature Tracker is a creative and innovative application that is used to encourage people to spend more time in nature. It allows users to log outdoor activities and keeps track of their streak for how many days in a row they spent outside.
 
-> [!NOTE]
-> This is a template for your startup application. You must modify this `README.md` file for each phase of your development. You only need to fill in the section for each deliverable when that deliverable is submitted in Canvas. Without completing the section for a deliverable, the TA will not know what to look for when grading your submission. Feel free to add additional information to each deliverable description, but make sure you at least have the list of rubric items and a description of what you did for each item.
-
-> [!NOTE]
-> If you are not familiar with Markdown then you should review the [documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) before continuing.
-
-## 🚀 Specification Deliverable
-
-> [!NOTE]
-> Fill in this sections as the submission artifact for this deliverable. You can refer to this [example](https://github.com/webprogramming260/startup-example/blob/main/README.md) for inspiration.
-
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
 - [x] Proper use of Markdown
@@ -64,7 +53,7 @@ I am going to use the required technologies in the following ways.
   - User login information
   - User entry streak
   - User scoring (points/ranking)
-- **WebSocket** - As users input entries and the user scores are updated, the websocket will update the ranking of the leaderboard, as well as update the information that the other users can see of each other (streak sharing)
+- **WebSocket** - As users input entries and the user scores are updated, the websocket will update the ranking of the leaderboard, as well as update the information that the other users can see of each other (streak sharing). When you are displaced from the podium, it will send notifacations to let you know that your place has been taken.
 
 ## 🚀 AWS deliverable
 
