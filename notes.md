@@ -10,8 +10,9 @@
 
 ## AWS
 
-My IP address is: 54.81.96.130
-Launching my AMI I initially put it on a private subnet. Even though it had a public IP address and the security group was right, I wasn't able to connect to it.
+My IP address is: 13.222.172.114
+
+I was able to successfully create an aws server (although I didn't click the free tier unfortunately). Everything worked fine, until I tried to run the server and found that I had accidentally chosen the wrong AMI and needed to change that. I figured this out because I could ssh onto the server but there was nothing there, and thus when I tried to access it through the web interface nothing came up. So, I deleted the first instance of the server and restarted with the correct AMI, and then everything worked as expected.
 
 ## Caddy
 
